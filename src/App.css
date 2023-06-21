@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input{
+  width: 250px;
+  height: 40px;
+}
+
+span{
+  color: red;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+pre{
+  font-size: 18px;
+}
